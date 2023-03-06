@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.ind-button{
+    display: flex;
+    justify-content: end ;
+    background-color: #103942;
+    height: 55px;
+}
+.ind-button >a{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.ind-button >a >button{
+    width: 90px;
+    height: 30px;
+    border: none;
+}
+.ind-button >a >button:hover{
+    background: linear-gradient(#103942,#5c777c);
+    color: #fff;
+}
+.ind-navbar{
+    display: flex;
+    justify-content: center;
+}
+.ind-navbar >ul >li{
+    margin-left: 50px;
+    /* border: 2px solid black; */
+}
+.ind-navbar >ul >li a:hover{
+    background: linear-gradient(#103942,#5c777c);
+    color: #fff !important;
+}
+ul.dropdown-menu{
+    width: 100% !important;
+    text-align: center;
+    background-color: #5c777c;
+}
+ul.dropdown-menu >li{
+    display: inline-block !important;
+}
+
+/* .parking-main1 */
+
+
+.parking-main1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../imges/img9.jpg");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: 15% 40%;
+    transform: scalex(1);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.parking-main1 h1{
+    color: white;
+    font-size: 70px ;
+}
+
+/* parking-main2 */
+
+.parking-main2{
+    padding: 50px 50px ;
+}
+.parking-main2 p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.parking-main2-col1{
+    padding: 40px 40px ;
+}
+.parking-main2-col1 h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* parking-main3 */
+
+.parking-main3{
+    padding: 50px 50px;
+    text-align: center;
+    border:10px solid transparent;
+    border-left-color: #7B5D11;
+    border-bottom-color: #7B5D11;
+}
+.parking-main3 p a{
+    text-decoration: none;
+}
+.parking-main3 p a:hover{
+    color: black;
+    text-decoration:underline ;
+    
+}
+
+
+ /* parking-main4 */
+
+ .parking-main4{
+    text-align: center;
+    margin-top: 90px;
+  
+ }
+
+ #map{
+    border-radius: 20px ;
+    width: 100%;
+    height: 400px;
+    box-shadow: -4px 0px 10px 5px grey;
+    border: 1px solid #7B5D11;
+    margin-top: 50px;
+}
+
+/* mediaquery css */
+@media (max-width:831px) {
+    .parking-main1{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url("../imges/img9.jpg");
+     width: 100%;
+     height: 300px;
+     background-repeat: no-repeat;
+     background-size: cover;
+ 
+    }
+    .parking-main1 h1{
+     color: white;
+     font-size: 50px ;
+     position: relative;
+     top: 30px ;
+     left: 30px;
+     
+     
+ }
+ }
+ @media (max-width:550px) {
+     .parking-main1{
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url("../imges/img9.jpg");
+      width: 100%;
+      height: 250px;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+     }
+     .parking-main1 h1{
+         color: white;
+         font-size: 40px ;
+         position: relative;
+         top: 20px ;
+         left: 10px;
+       
+         
+     }
+ }
+  @media (max-width:468px) {
+     .parking-main1{
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url("../imges/img9.jpg");
+      /* width: 100%; */
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+     }
+     .parking-main1 h1{
+         color: white;
+         font-size: 40px ;
+         position: relative;
+         top: 10px ;
+         left: 8px;
+      
+         
+     }
+ }
+

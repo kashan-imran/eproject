@@ -1,0 +1,39 @@
+.ind-button{
+    display: flex;
+    justify-content: end ;
+    background-color: #103942;
+    height: 55px;
+}
+.ind-button >a{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.ind-button >a >button{
+    width: 90px;
+    height: 30px;
+    border: none;
+}
+.ind-button >a >button:hover{
+    background: linear-gradient(#103942,#5c777c);
+    color: #fff;
+}
+.ind-navbar{
+    display: flex;
+    justify-content: center;
+}
+.ind-navbar >ul >li{
+    margin-left: 50px;
+    /* border: 2px solid black; */
+}
+.ind-navbar >ul >li a:hover{
+    background: linear-gradient(#103942,#5c777c);
+    color: #fff !important;
+}
+ul.dropdown-menu{
+    width: 100% !important;
+    text-align: center;
+    background-color: #5c777c;
+}
+ul.dropdown-menu >li{
+    display: inline-block !important;
+}

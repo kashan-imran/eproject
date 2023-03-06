@@ -1,0 +1,47 @@
+@media (max-width:576px) {
+    #ind-videotext button{
+        font-size: 10px;
+    }
+    #ind-videotext {
+        margin-top: -35%;
+        text-align: center;
+    }
+    #ind-videotext >h1 {
+        font-size: 24px;
+    }
+    #pera1{
+        color: #fff !important;
+        font-size: 10px;
+    }
+    #ind-videotext button{
+        width: 100px;
+    }
+     
+}
+@media  (min-width:576px) and (max-width:720px){
+    #ind-videotext >h1 {
+        font-size: 35px;
+    }
+    #pera1{
+        color: #fff !important;
+        font-size: 16px;
+    }
+}
+@media (min-width:720px) and (max-width:850px) {
+    #ind-videotext >h1 {
+        font-size: 52px;
+    }
+    #pera1{
+        color: #fff !important;
+        font-size: 20px;
+    }
+}
+@media (min-width:850px){
+    #ind-videotext >h1 {
+        font-size: 72px;
+    }
+    #pera1{
+        color: #fff !important;
+        font-size: 30px;
+    }
+}

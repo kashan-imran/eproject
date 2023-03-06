@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ticket-main1{
+    border: 1px solid  transparent;
+    height: auto;
+    padding: 50px 50px;
+    /* background-image: url(./imgback.svg); */
+    width: 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+.ticket-main1 h1{
+    color: #434242;
+}
+
+#btn{
+    background-color: #1e525e;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: 500 ;
+}
+#btn:hover{
+    color: #1e525e;
+    font-family: cursive;
+    letter-spacing: 3px;
+    background-color: #fff;
+    border-color: #1e525e;
+    box-shadow: 0px 0px 2px 2px #1e525e;
+
+}
+
+/* ticket-main2 */
+
+.ticket-main2{
+    border: 1px solid transparent;
+}
+.div2{
+    width: 50%;
+    border-left: 8px solid #1e525e;
+    border-bottom:8px solid #1e525e;
+    height: 150px;
+    width: 400px;
+    text-align: center;
+    padding: 30px 30px;
+    /* background-color:#b6dbe4; */
+}
+#w2{
+    color: red;
+    display: none;
+}
+
+.btnminus{
+    border-color: transparent;
+    background-color: #1d92ac;
+    color: #fff;
+    width: 40px;
+    border-radius: 1px;
+}
+.btnplus{
+    border-color: transparent;
+    background-color: #1d92ac;
+    color: #fff;
+    width: 40px;
+    border-radius: 1px;
+}
+
+#addtocart{
+    background-color: #1e525e;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 18px;
+    font-weight: 500 ;
+}
+#addtocart:hover{
+    color: #1e525e;
+    font-family: cursive;
+    letter-spacing: 3px;
+    background-color: #fff;
+    border-color: #1e525e;
+    box-shadow: 0px 0px 2px 2px #1e525e;
+    font-weight: 800;
+
+}
+
+/* ticket-main3 */
+
+.ticket-main3{
+    border:  1px solid transparent;
+}
+
+/* rows */
+.rows{
+    border:1px solid transparent;
+    padding: 30px 30px;
+    background-color: #cee0e4;
+    color: #1e525e;
+}
+
+/* .ticket-main4 */
+
+.ticket-main4{
+    border: 1px solid transparent;
+    padding: 50px 5px;
+}
+#formBtn{
+    background-color: #1e525e;
+    color: #fff;
+    border-color: transparent;
+}
+#formBtn:hover{
+    color: #1e525e;
+    background-color: #fff;
+    font-weight: 800;
+    font-family: cursive;
+    border-color: #1e525e;
+    font-size: 20px;
+    border-width: 2px;
+
+}
+/* .infocol{
+    display: flex;
+} */

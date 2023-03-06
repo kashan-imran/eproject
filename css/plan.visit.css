@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.ind-button{
+    display: flex;
+    justify-content: end ;
+    background-color: #103942;
+    height: 55px;
+}
+.ind-button >a{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.ind-button >a >button{
+    width: 90px;
+    height: 30px;
+    border: none;
+}
+.ind-button >a >button:hover{
+    background: linear-gradient(#103942,#5c777c);
+    color: #fff;
+}
+.ind-navbar{
+    display: flex;
+    justify-content: center;
+}
+.ind-navbar >ul >li{
+    margin-left: 50px;
+    /* border: 2px solid black; */
+}
+.ind-navbar >ul >li a:hover{
+    background: linear-gradient(#103942,#5c777c);
+    color: #fff !important;
+}
+ul.dropdown-menu{
+    width: 100% !important;
+    text-align: center;
+    background-color: #5c777c;
+}
+ul.dropdown-menu >li{
+    display: inline-block !important;
+}
+
+/* .plan-visit-main1 */
+
+
+.plan-visit-main1{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  
+    url("../imges/img3.jpg");
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: 25% 5%;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+.plan-visit-main1 h1{
+    color: white;
+    font-size: 70px ;
+    /* position: relative; */
+    /* top: 200px ;
+    left: 50px; */
+    border-bottom:1px solid white ;
+    width: 600px ;
+    border-width: 5px ;
+}
+/* .plan-visit-main1 h1:hover{
+    letter-spacing: 2px ;
+    transition: 2s ease;
+    
+} */
+
+/* plan-visit-main2 */
+
+.plan-visit-main2{
+    text-align: center;
+    padding: 80px 30px ;
+    border: 1px solid transparent;
+    margin-top: 50px ;
+    border-left: 10px solid #1179C0;
+    border-bottom: 10px solid #1179C0;
+
+}
+
+
+/* plan-visit-main3 */
+
+.plan-visit-main3{
+    margin-top: 50px ;
+    padding: 50px 50px;
+}
+.plan-visit-main3-div1 img{
+    text-align: center;
+}
+.plan-visit-main3-div2 h3{
+    text-align: center;
+    margin-top: 11% ;
+    padding-bottom: 7%;
+}
+
+.plan-visit-main3-div2 a{
+    text-decoration: none;
+}
+
+.plan-visit-main3-div2 a:hover{
+    color: black;
+    text-decoration: underline
+}
+
+/* plan-visit-main4 */
+.plan-visit-main4{
+    padding: 30px 30px ;
+    text-align: center;
+}
+.plan-visit-main4 h1{
+    padding-bottom: 2%;
+}
+.plan-visit-main4 a button{
+    color: #1179C0;
+    height: 35px;
+    width: 12%;
+    border: none;
+}
+.plan-visit-main4 a button:hover{
+    color: #fff;
+    background-color: #1179C0;
+}
+
+/* media query css */
+
+@media (max-width:991px){
+    .plan-visit-main4 a button{
+        color: #1179C0;
+        height: 38px;
+        width: 26%;
+        border: none;
+        font-size: 18px;
+    }
+    .plan-visit-main4 a button:hover{
+        color: #fff;
+        background-color: #1179C0;
+    }
+ }
+
+@media (max-width:831px) {
+    .plan-visit-main1{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+       url("../imges/img3.jpg");
+     width: 100%;
+     height: 400px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     /* background-position: 25% 5%; */
+ 
+    }
+    .plan-visit-main1 h1{
+     color: white;
+     font-size: 60px ;
+     /* position: relative;
+     top: 150px ;
+     left: 10px; */
+     border-bottom:1px solid white ;
+     width: 430px ;
+     border-width: 5px ;
+     
+    }
+    
+}
+ @media (max-width:550px) {
+    .plan-visit-main1{
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url("../imges/img3.jpg");
+      width: 100%;
+      height: 250px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+  
+     }
+     .plan-visit-main1 h1{
+         color: white;
+         font-size: 40px ;
+         /* position: relative;
+         top: 100px ;
+         left: 10px; */
+         border-bottom:1px solid white ;
+         width: 340px ;
+         border-width: 5px ;
+         
+     }
+     .plan-visit-main4 a button{
+        color: #1179C0;
+        height: 38px;
+        width: 27%;
+        border: none;
+        font-size: 16px;
+    }
+    .plan-visit-main4 a button:hover{
+        color: #fff;
+        background-color: #1179C0;
+    }
+ }
+  @media (max-width:468px){
+     .plan-visit-main1{
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url("../imges/img3.jpg");
+      width: 100%;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+  
+     }
+     .plan-visit-main1 h1{
+         color: white;
+         font-size: 30px ;
+         /* position: relative;
+         top: 70px ;
+         left: 1px; */
+         border-bottom:1px solid white ;
+         width: 250px ;
+         border-width: 5px ;
+         
+     }
+     .plan-visit-main4 a button{
+        color: #1179C0;
+        height: 38px;
+        width: 30%;
+        border: none;
+        font-size: 14px;
+    }
+    .plan-visit-main4 a button:hover{
+        color: #fff;
+        background-color: #1179C0;
+    }
+ }
+
+
+ 

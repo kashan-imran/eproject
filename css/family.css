@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.ind-button{
+    display: flex;
+    justify-content: end ;
+    background-color: #103942;
+    height: 55px;
+}
+.ind-button >a{
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.ind-button >a >button{
+    width: 90px;
+    height: 30px;
+    border: none;
+}
+.ind-button >a >button:hover{
+    background: linear-gradient(#103942,#5c777c);
+    color: #fff;
+}
+.ind-navbar{
+    display: flex;
+    justify-content: center;
+}
+.ind-navbar >ul >li{
+    margin-left: 50px;
+    /* border: 2px solid black; */
+}
+.ind-navbar >ul >li a:hover{
+    background: linear-gradient(#103942,#5c777c);
+    color: #fff !important;
+}
+ul.dropdown-menu{
+    width: 100% !important;
+    text-align: center;
+    background-color: #5c777c;
+}
+ul.dropdown-menu >li{
+    display: inline-block !important;
+}
+
+/* .family-main1 */
+
+
+.family-main1{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),  url("../imges/img15.jpg");
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 40%;
+    transform: scalex(1);
+    overflow-x:hidden;
+    display:flex;
+    align-items: center;
+}
+.family-main1 h1{
+    color: white;
+    font-size: 70px ;
+    /* position: relative;
+    top: 200px ;
+    left: 50px; */
+    border-bottom:1px solid white ;
+    width: 450px ;
+    border-width: 5px ;
+    
+}
+/* family-main2  */
+
+.family-main2{
+    padding: 50px 50px;
+}
+
+.family-main2 p{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* family-main3 */
+
+.family-main3{
+    padding: 50px 50px ;
+}
+.family-main3-div1 img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.family-main3-div2 p{
+    font-size: 14px;
+    font-weight: 500;
+}
+/* icons */
+
+.family-icon{
+    font-size: 25px;
+    color: #103942;
+}
+
+.family-main3-divs{
+    text-align: center;
+    
+}
+.family-main3-divs p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.lastpara{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* mediaquery css */
+@media (max-width:831px) {
+    .family-main1{
+     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),  url("../imges/img15.jpg");
+     width: 100%;
+     height: 300px;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+  
+    }
+    .family-main1 h1{
+     color: white;
+     font-size: 50px ;
+     /* position: relative;
+     top: 130px ;
+     left: 50px; */
+     border-bottom:1px solid white ;
+     width: 350px ;
+     border-width: 5px ;
+     
+  }
+  }
+  @media (max-width:550px) {
+     .family-main1{
+      background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),  url("../imges/img15.jpg");
+      width: 100%;
+      height: 250px;
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+  
+     }
+     .family-main1 h1{
+         color: white;
+         font-size: 40px ;
+         /* position: relative;
+         top: 100px ;
+         left: 40px; */
+         border-bottom:1px solid white ;
+         width: 260px ;
+         border-width: 5px ;
+         
+     }
+  }
+  @media (max-width:468px) {
+     .family-main1{
+      background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)),  url("../imges/img15.jpg");
+      /* width: 100%; */
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+  
+     }
+     .family-main1 h1{
+         color: white;
+         font-size: 35px ;
+         /* position: relative;
+         top: 80px ;
+         left: 30px; */
+         border-bottom:1px solid white ;
+         width: 220px ;
+         border-width: 5px ;
+         
+     }
+  }
+
